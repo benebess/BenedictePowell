@@ -1,4 +1,4 @@
-import './App.css';
+
 import React from "react";
 import  { 
   BrowserRouter as Router, 
@@ -15,9 +15,12 @@ import { Div } from './styled-components/app';
 
 
 
+
 function App() {
   return (
     <Div>
+      {/* <Div style={{ 
+      backgroundImage: `url(${background})` }}> */}
       <Router>
         <Navigation />
           <Routes>
