@@ -5,8 +5,10 @@ import { Div } from '../styled-components/home';
 const Home =() => {
     return (
         <Div>
-            <h1>Benedicte Powell</h1>
-            <h2>Front-end Web Development</h2>
+            <div class="typewriter">
+                <h1>Benedicte Powell</h1> 
+                <p>front-end web development</p>
+            </div>
         </Div>
     )
 }
