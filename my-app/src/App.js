@@ -19,8 +19,6 @@ import { Div } from './styled-components/app';
 function App() {
   return (
     <Div>
-      {/* <Div style={{ 
-      backgroundImage: `url(${background})` }}> */}
       <Router>
         <Navigation />
           <Routes>

@@ -17,13 +17,14 @@ export const Div = styled.div`
     }
 
     h1 { 
-        color: white;
+        color: #49B1F2;
         font-family: 'Press Start 2P', cursive;
         text-align: center;
+        
     }
 
     p { 
-        color: white;
+        color: #49B1F2;
         font-family: 'Cutive Mono', monospace;
         text-align: center;
         padding: 20px;

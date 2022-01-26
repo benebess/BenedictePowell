@@ -1,35 +1,40 @@
 import React from "react";
-import { DivOne } from '../styled-components/projects';
+import { DivOne, Container } from '../styled-components/projects';
 
 
 
 const Projects =() => {
     return (
-        <div>
+        <Container>
             <DivOne>
-                <h1>Project 1</h1>
+            
+                <h1>OmniCoin // Coder Academy Hackathon</h1>
+                <h2><a href="https://omni-coin.herokuapp.com/">OmniCoin</a></h2>
                 <p>info about project</p>
 
             </DivOne>
 
             <DivOne>
-                <h1>Project 2</h1>
+                <h1>Heading</h1>
+                <h2>subheading</h2>
                 <p>info about project</p>
             
             </DivOne>
 
             <DivOne>
-                <h1>Project 3</h1>
+                <h1>Heading</h1>
+                <h2>subheading</h2>
                 <p>info about project</p>
             
             </DivOne>
 
             <DivOne>
-                <h1>Project 4</h1>
+                <h1>Heading</h1>
+                <h2>subheading</h2>
                 <p>info about project</p>
             
             </DivOne>
-        </div>
+        </Container>
     )
 }
 
