@@ -5,7 +5,7 @@ import { Div } from '../styled-components/footer';
 const Footer =() => {
     return(
         <Div>
-            © BONEPILE 2022
+            ©bonepile.2022
         </Div>
     )
 }

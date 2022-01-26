@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Press+Start+2P&display=swap');
 
     // MOBILE
 
@@ -10,11 +10,14 @@ export const Div = styled.div`
     align-items: center;
     flex-direction: coloumn; 
     margin-top: 200px;
+    text-align: center;
+    
 
     h1 { 
         color: #8EBF6B;
-        font-size: 50px;
-        font-family: 'Cute Font', cursive;
+        font-size: 20px;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
     }
     .typewriter p {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -26,8 +29,8 @@ export const Div = styled.div`
           typing 3.5s steps(40, end),
           blink-caret .75s step-end infinite;
         color: #8EBF6B;
-        font-size: 25px;
-        font-family: 'Cute Font', cursive;
+        font-size: 15px;
+        font-family: 'Cutive Mono', monospace;
       }
       
       /* The typing effect */

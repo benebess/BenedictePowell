@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Div = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Press+Start+2P&display=swap');
 
   // MOBILE VIEW
 
@@ -10,13 +10,15 @@ export const Div = styled.div`
       color: #ed5e82;
       text-decoration: none;
       padding: 40px;
-      font-size: 40px;
-      font-family: 'Cute Font', cursive;
+      font-size: 20px;
+      font-family: 'Press Start 2P', cursive;
   }
 
   li {
       padding: 20px;
   }
+
+  
 
   #menu__toggle {
     opacity: 0;
@@ -70,7 +72,7 @@ export const Div = styled.div`
     position: fixed;
     top: 0;
     left: -100%;
-    width: 300px;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 80px 0;

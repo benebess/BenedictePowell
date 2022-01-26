@@ -1,12 +1,35 @@
 import React from "react";
-import { Div } from '../styled-components/projects';
+import { DivOne } from '../styled-components/projects';
+
 
 
 const Projects =() => {
     return (
-        <Div>
-            This is where my projects lay
-        </Div>
+        <div>
+            <DivOne>
+                <h1>Project 1</h1>
+                <p>info about project</p>
+
+            </DivOne>
+
+            <DivOne>
+                <h1>Project 2</h1>
+                <p>info about project</p>
+            
+            </DivOne>
+
+            <DivOne>
+                <h1>Project 3</h1>
+                <p>info about project</p>
+            
+            </DivOne>
+
+            <DivOne>
+                <h1>Project 4</h1>
+                <p>info about project</p>
+            
+            </DivOne>
+        </div>
     )
 }
 

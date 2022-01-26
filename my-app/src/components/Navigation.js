@@ -1,6 +1,7 @@
 import React from 'react';
 import { Div } from '../styled-components/navigation'
 import { Link } from 'react-router-dom';
+import shiba from '../images/shiba.gif'
 
 
 const Navigation =() => {
@@ -17,6 +18,9 @@ const Navigation =() => {
                 <li><Link to="/about" className="active">about.</Link></li>
                 <li><Link to="/projects" className="active">projects.</Link></li>
                 <li><Link to="/contact" className="active">contact.</Link></li>
+                <br></br>
+                <br></br>
+                <li><img src={shiba} alt="shibagif" width="180px"/></li>
             </ul>
             </div>
             

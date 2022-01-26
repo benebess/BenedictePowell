@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Press+Start+2P&display=swap');
 
     // MOBILE 
     
@@ -17,8 +17,8 @@ export const Div = styled.div`
     width: 85%;
     text-align: center;
     color: #42858C;
-    font-family: 'Cute Font', cursive;
-    font-size: 30px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 15px;
 
 
 
