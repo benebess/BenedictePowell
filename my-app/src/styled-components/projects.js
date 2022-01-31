@@ -10,6 +10,8 @@ export const Container = styled.div`
         font-family: 'Press Start 2P', cursive;
         font-size: 20px;
         text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     h2 { 
@@ -23,6 +25,9 @@ export const Container = styled.div`
         color: white;
         font-family: 'Cutive Mono', monospace;
         font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
     }
 
     a { 
@@ -38,6 +43,22 @@ export const Container = styled.div`
 
     a:visited: {
         color: #42858C;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        padding: 10px;
+    }
+
+    // desktop
+    @media(min-width: 1200px) {
+
     }
 `
 
