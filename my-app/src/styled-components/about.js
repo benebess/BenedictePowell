@@ -30,4 +30,32 @@ export const Div = styled.div`
         padding: 20px;
     }
 
+    // desktop
+    @media(min-width: 1200px) {
+
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        img {
+            width: 400px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 200px;
+        }
+
+    }
+
 `

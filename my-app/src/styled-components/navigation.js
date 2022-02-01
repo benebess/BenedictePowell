@@ -96,4 +96,58 @@ export const Div = styled.div`
     background-color: #CFD8DC;
   }
 
+  // desktop
+    @media(min-width: 1200px) {
+
+        a { 
+            color: #ed5e82;
+            text-decoration: none;
+            transition: all 500ms;
+            font-size: 40px;
+            
+
+    }
+
+    li { 
+        padding: 45px;
+
+    }
+
+    a:hover { 
+        font-size: 45px;
+    }
+
+
+    #menu__toggle {  
+        opacity: 0;
+    }
+
+    #menu__toggle:checked + .menu__btn > span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked + .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0deg);
+    }
+
+    #menu__toggle:checked + .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+    }
+    .menu__btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+
+ 
 `

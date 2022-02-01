@@ -1,27 +1,50 @@
 import React from "react";
 import { DivOne, Container } from '../styled-components/projects';
-import omnicoin1 from '../images/omnicoin1.png'
-import omnicoin2 from '../images/omnicoin2.png'
-import omnicoin3 from '../images/omnicoin3.png'
+import Poster1 from '../images/Poster1.png'
+import Poster2 from '../images/Poster2.png'
+import Poster3 from '../images/Poster3.jpg'
+import Poster4 from '../images/Poster4.png'
+import Poster5  from '../images/Poster5.png'
+import Poster6  from '../images/Poster6.png'
+import Poster7 from '../images/Poster7.png'
 
 
 const Projects =() => {
     return (
         <Container>
             <DivOne>
+                <h1>Gig/band Poster Design</h1>
+                <h2></h2>
+                <p>On the side, I sometimes make posters!</p>
+                <div class="container">
+                <div>
+                    <img src={Poster2} alt="goat" width="300px"/>
+                    <img src={Poster5} alt="Rosa" width="300px"/>
+                    
+                </div>
+                <div>
+                    <img src={Poster1} alt="shamin" width="300px"/>
+                    <img src={Poster3} alt="Jazz" width="300px"/>
+                </div>
+                <div>
+                    <img src={Poster6} alt="Spook" width="300px"/>
+                    <img src={Poster7} alt="Ozergun" width="200px"/>
+                </div>
+                <div>
+                    <img src={Poster4} alt="RevGroove" width="300px"/>
+                </div>
+                </div>
+            </DivOne>
+            <DivOne>
             
                 <h1>OmniCoin // Coder Academy Hackathon</h1>
                 <h2><a href="https://omni-coin.herokuapp.com/">OmniCoin</a></h2>
-                <div>
-                    <img src={omnicoin1} alt="omnicoin1" width="300px"/>
-                    <img src={omnicoin2} alt="omnicoin1" width="300px"/>
-                    <img src={omnicoin3} alt="omnicoin1" width="300px"/>
-                </div>
                 <p>One of the great parts about studying at Coder Academy 
                     was getting to get to group up and do hackathons. 
                     Three classmates and I made OmniCoin: A Crypto information site
                     for beginners looking to learn about everything Crypto. 
                     I worked on the front-end of the website.</p>
+                
 
             </DivOne>
 
@@ -45,12 +68,7 @@ const Projects =() => {
             
             </DivOne>
 
-            <DivOne>
-                <h1>Heading</h1>
-                <h2>subheading</h2>
-                <p>info about project</p>
             
-            </DivOne>
         </Container>
     )
 }

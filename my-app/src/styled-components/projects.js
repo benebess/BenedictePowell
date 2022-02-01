@@ -59,7 +59,48 @@ export const Container = styled.div`
     // desktop
     @media(min-width: 1200px) {
 
+        margin-top: 0; 
+        margin-left: 300px;
+        margin-right: 300px;
+        
+
+
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+    img {
+        width: 80%;
     }
+
+    p {
+        font-size: 20px;
+    }
+
+    div.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    div.container div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    div.container img {
+        width: 40%;
+    }
+
+
+}
 `
 
 export const DivOne = styled.div`

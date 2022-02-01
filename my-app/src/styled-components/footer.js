@@ -20,6 +20,20 @@ export const Div = styled.div`
     font-family: 'Cutive Mono', monospace;
     font-size: 15px;
 
+    // desktop
+    @media(min-width: 1200px) {
 
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+        color: #42858C;
+        font-family: 'Cutive Mono', monospace;
+        border-radius: 0;
+        padding: 20px;
+        margin-bottom: 20px;    
+    }
 
 `
