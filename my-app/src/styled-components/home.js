@@ -44,4 +44,20 @@ export const Div = styled.div`
         from, to { border-color: transparent }
         50% { border-color: orange; }
       }
+
+      // desktop
+    @media(min-width: 1200px) {
+
+        margin-bottom: 530px;
+
+        h1 {
+          font-size: 50px;
+          margin-top: 100px;
+
+        }
+
+        .typewriter p {
+          font-size: 30px;
+        }
+    }
 `

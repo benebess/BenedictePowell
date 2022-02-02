@@ -6,7 +6,6 @@ import Poster3 from '../images/Poster3.jpg'
 import Poster4 from '../images/Poster4.png'
 import Poster5  from '../images/Poster5.png'
 import Poster6  from '../images/Poster6.png'
-import Poster7 from '../images/Poster7.png'
 
 
 const Projects =() => {
@@ -15,7 +14,10 @@ const Projects =() => {
             <DivOne>
                 <h1>Gig/band Poster Design</h1>
                 <h2></h2>
-                <p>On the side, I sometimes make posters!</p>
+                <p>
+                    On the side, I sometimes make posters!<br></br>
+                    @byebyebonepile on insta
+                </p>
                 <div class="container">
                 <div>
                     <img src={Poster2} alt="goat" width="300px"/>
@@ -28,9 +30,6 @@ const Projects =() => {
                 </div>
                 <div>
                     <img src={Poster6} alt="Spook" width="300px"/>
-                    <img src={Poster7} alt="Ozergun" width="200px"/>
-                </div>
-                <div>
                     <img src={Poster4} alt="RevGroove" width="300px"/>
                 </div>
                 </div>
