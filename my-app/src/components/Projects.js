@@ -8,12 +8,13 @@ import Poster5  from '../images/Poster5.png'
 import Poster6  from '../images/Poster6.png'
 
 
+
 const Projects =() => {
     return (
         <Container>
             <DivOne>
                 <h1>Gig/band Poster Design</h1>
-                <h2></h2>
+                <h2>.</h2>
                 <p>
                     On the side, I sometimes make posters!<br></br>
                     @byebyebonepile on insta
@@ -69,7 +70,12 @@ const Projects =() => {
 
             
         </Container>
+
+        
     )
 }
+
+  
+
 
 export default Projects;

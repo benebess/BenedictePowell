@@ -62,8 +62,7 @@ export const Container = styled.div`
         margin-top: 0; 
         margin-left: 300px;
         margin-right: 300px;
-        
-
+       
 
 
         div {
@@ -117,6 +116,7 @@ export const DivOne = styled.div`
     margin: 20px;
     
 
+    
     
 
 `

@@ -5,7 +5,9 @@ import { Div } from '../styled-components/footer';
 const Footer =() => {
     return(
         <Div>
-            ©bonepile.2022
+            <p>
+                © bonepile.2022
+            </p>
         </Div>
     )
 }
